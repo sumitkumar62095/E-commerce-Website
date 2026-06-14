@@ -1,0 +1,56 @@
+
+:root {
+    
+    --family-primary: "Plus Jakarta Sans", sans-serif;
+    --family-secondary: "Anton", sans-serif;
+
+    
+    --primary-color: #000000;
+    --secondary-color: #666666;
+    --white: #ffffff;
+    --black: #000000;
+    --bg-color: #f2f0f1;
+    --dress-bg: #F0F0F0;
+    --card-bg: #F0EEED;
+    --discount-bg: #ffe5e5;
+    --rating-color: #FFC633;
+
+
+    --container-width: 1240px;
+    --fs-hero: 4rem; 
+    --fs-text: 16px;
+
+    
+    --radius-btn: 30px;
+    --dress-radius: 40px;
+    --card-radius: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--family-primary);
+    background-color: var(--white);
+    color: var(--primary-color);
+    overflow-x: hidden;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.container {
+    max-width: var(--container-width);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+    width: 100%;
+}
